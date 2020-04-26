@@ -19,16 +19,10 @@ Using my file, you can make the company owner go to the car dealer to buy the co
 
 [INSTALLATION]
 
-1) CD in your resources/[esx] folder
-2) Clone the repository
-```
-git clone https://github.com/FXServer-ESX/fxserver-esx_policejob esx_policejob
-```
-3) Import esx_policejob.sql in your database
+### Manually
+- Download https://github.com/godday147/esx_vagos/releases/download/1.0/esx_vagos.zip
+- Put it in the `[esx]` directory
 
-4) Add this in your server.cfg :
-
-```
 start esx_vagos
 ```
 5) * If you want player management you have to set Config.EnablePlayerManagement to true in config.lua
