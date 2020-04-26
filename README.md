@@ -1,5 +1,6 @@
-# fxserver-esx_policejob
-FXServer ESX Police Job
+# esx_vagos
+esx_vagos
+Using my file, you can make the company owner go to the car dealer to buy the company's vehicle, which will be a very good experience.
 
 [REQUIREMENTS]
 
@@ -13,6 +14,9 @@ FXServer ESX Police Job
 * ESX Identity Support
   * esx_identity => https://github.com/ArkSeyonet/fxserver-esx_identity
 
+* Vehicle dealer
+  * [esx_vehicleshop](https://github.com/godday147/esx_vehicleshop)
+
 [INSTALLATION]
 
 1) CD in your resources/[esx] folder
@@ -25,7 +29,7 @@ git clone https://github.com/FXServer-ESX/fxserver-esx_policejob esx_policejob
 4) Add this in your server.cfg :
 
 ```
-start esx_policejob
+start esx_vagos
 ```
 5) * If you want player management you have to set Config.EnablePlayerManagement to true in config.lua
    * If you want armory management you have to set Config.EnableArmoryManagement to true in config.lua
